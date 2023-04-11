@@ -43,23 +43,23 @@ function MainView() {
                 </div>
             </div>
 
-            <div className='pt-2 flex flex-col sm:flex-row justify-center items-center'>
+            <div className='pt-2 flex flex-col  sm:flex-row justify-center items-center'>
                 <button onClick={() => window.open('https://linktr.ee/archisharun', '_blank')}>
-                    <div className='h-36 w-36 pt-5 flex justify-center'>
+                    <div className='h-24 w-24 pt-5 flex justify-center'>
                         <img className=" h-fit  align-middle grayscale hover:grayscale-0 hover:cursor-pointer" src={flamingoImage} alt="" />
                     </div>
 
                 </button>
 
                 <button onClick={() => window.open('https://open.spotify.com/artist/4f5hsDIno1YcAWvudVPyeu?si=OKrmNktfS9Cp8L6Nb9vbzQ', '_blank')}>
-                    <div className='h-36 w-36 flex justify-center align-middle'>
-                        <img className=" h-36 grayscale hover:grayscale-0 hover:cursor-pointer" src={keyboardImage} alt="" />
+                    <div className='h-24 w-24 flex justify-center align-middle'>
+                        <img className=" h-24 grayscale hover:grayscale-0 hover:cursor-pointer" src={keyboardImage} alt="" />
                     </div>
 
                 </button>
 
                 <button onClick={() => window.open('https://linktr.ee/52prime', "_blank")}>
-                    <div className='h-44 w-44 flex justify-center align-middle'>
+                    <div className='h-24 w-24 flex justify-center align-middle'>
                         <img className="h-fit grayscale hover:grayscale-0 pt-6 hover:cursor-pointer" src={primeImage} alt="" />
                     </div>
 
