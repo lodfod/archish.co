@@ -59,8 +59,8 @@ function MainView() {
                 </button>
 
                 <button onClick={() => window.open('https://linktr.ee/52prime', "_blank")}>
-                    <div className='w-36 flex justify-center align-middle'>
-                        <img className="w-36 grayscale hover:grayscale-0 pt-6 hover:cursor-pointer" src={primeImage} alt="" />
+                    <div className='w-44 flex justify-center align-middle'>
+                        <img className="w-44 grayscale hover:grayscale-0 pt-6 hover:cursor-pointer" src={primeImage} alt="" />
                     </div>
 
                 </button>
