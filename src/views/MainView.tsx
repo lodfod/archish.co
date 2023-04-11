@@ -12,9 +12,9 @@ function MainView() {
     return (
         <div className='items-center sm:h-screen text-center content-center p-20 text-4xl font-medium sm:flex justify-center sm:justify-between '>
             <div className="">
-                <span className='hover:cursor-pointer text-white hover:text-transparent hover:bg-gradient-to-r bg-clip-text hover:from-red-500 hover:to-yellow-500'>
+                <div onClick={(e) => window.location.href = "/#"} className='hover:cursor-pointer text-white hover:text-transparent hover:bg-gradient-to-r bg-clip-text hover:from-red-500 hover:to-yellow-500'>
                     archish arun
-                </span>
+                </div>
                 <div className='flex px-10 sm:px-4 justify-between pt-1 '>
                     <a href="mailto:me@archisharun.com?subject=Request for Resume">
                         <DocumentTextIcon className='h-5 w-5 hover:cursor-pointer hover:shadow-lg hover:shadow-red-500 rounded-md' />
