@@ -16,16 +16,26 @@ function MainView() {
                     archish arun
                 </span>
                 <div className='flex px-10 sm:px-4 justify-between pt-1 '>
-                    <DocumentTextIcon className='h-5 w-5 hover:cursor-pointer hover:shadow-lg hover:shadow-red-500 rounded-md' />
-                    <EnvelopeIcon className=' h-5 bg-transparent w-5 hover:cursor-pointer hover:shadow-lg hover:shadow-orange-700 rounded-md' />
-                    <div className='pl-1'>
-                        <img className=' h-5 w-5  hover:cursor-pointer hover:shadow-lg hover:shadow-orange-500  ' src={linkedinIcon} alt="" />
-                    </div>
-                    <div className='pl-1'>
-                        <img className=' h-5 w-5 invert hover:cursor-pointer hover:shadow-lg hover:shadow-blue-500 rounded-md ' src={instagramIcon} alt="" />
+                    <a href="mailto:me@archisharun.com?subject=Request for Resume">
+                        <DocumentTextIcon className='h-5 w-5 hover:cursor-pointer hover:shadow-lg hover:shadow-red-500 rounded-md' />
+                    </a>
+
+                    <a href="mailto:me@archisharun.com?subject=Request for Resume">
+                        <EnvelopeIcon className=' h-5 bg-transparent w-5 hover:cursor-pointer hover:shadow-lg hover:shadow-orange-700 rounded-md' />
+                    </a>
+
+                    <a href="https://linkedin.com/in/archisharun" target='_blank'>
+                        <div className='pl-1'>
+                            <img className=' h-5 w-5  hover:cursor-pointer hover:shadow-lg hover:shadow-orange-500  ' src={linkedinIcon} alt="" />
+                        </div>
+                    </a>
 
 
-                    </div>
+                    <a href="https://instagram.com/archisharun" target="_blank">
+                        <div className='pl-1'>
+                            <img className=' h-5 w-5 invert hover:cursor-pointer hover:shadow-lg hover:shadow-blue-500 rounded-md ' src={instagramIcon} alt="" />
+                        </div>
+                    </a>
 
 
 
