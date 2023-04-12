@@ -25,8 +25,7 @@ function MainView() {
     const blob = useRef(null)
 
    const mouseMoveEvent = (e: any) => {
-    console.log(endX)
-    console.log(endY)
+    
     endX.current = e.pageX - Math.abs(0.04*window.innerWidth);
     endY.current = e.pageY - Math.abs(window.innerHeight * 0.04);
     //@ts-ignore
