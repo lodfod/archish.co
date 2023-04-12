@@ -39,7 +39,7 @@
     red
   );
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
-  animation: rotate 30s infinite;
+  animation: rotate 2s infinite;
   
 
   @media (min-width: 400px) {
