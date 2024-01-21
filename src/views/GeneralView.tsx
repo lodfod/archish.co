@@ -148,7 +148,7 @@ function GeneralView() {
                       </Tooltip>
                     </span>{" "}
                     an llm-powered second brain. backed by
-                    general catalyst through rough draft ventures.
+                    general catalyst through rough draft ventures at a multi-million dollar valuation.
                   </li>
                   <li className="pt-1 list-item text-gray-400">
                     here is a{" "}
