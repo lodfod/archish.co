@@ -6,9 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      scale: {
+        '-100': '-1',
+    },
 
       fontFamily: {
         rasa: ["Rasa", "serif"],
+        syne: ["Syne", "sans-serif"],
+        dm: ["DM Sans", "sans-serif"],
+        work: ["Work Sans", "sans-serif"],
       },
     },
   },

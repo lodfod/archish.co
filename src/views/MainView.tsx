@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, {useEffect, useRef} from 'react'
 
 import keyboardImage from '../assets/archish_keyboard.png'
@@ -67,7 +68,7 @@ function MainView() {
                 <div className="">
                     <div onClick={(e) => window.location.href = "/#"} className=' hover:cursor-pointer text-white hover:text-transparent hover:bg-gradient-to-r bg-clip-text hover:from-red-500 hover:to-yellow-500'>
                         archish arun
-                        <div className='font-light text-sm pb-2'>
+                        <div className='font-light font-syne text-xs pb-2'>
                             student, developer, musician
                         </div>
                     </div>
@@ -89,7 +90,7 @@ function MainView() {
 
                         <a href="https://instagram.com/archisharun" target="_blank">
                             <div className='pl-1'>
-                                <img className=' h-5 w-5 invert  transition ease-in-out hover:cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-blue-500 rounded-md ' src={instagramIcon} alt="" />
+                                <img className=' h-5 w-5 invert  transition ease-in-out hover:cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-orange-500 rounded-md ' src={instagramIcon} alt="" />
                             </div>
                         </a>
 
@@ -100,7 +101,7 @@ function MainView() {
                 </div>
 
                 <div className='pt-2 flex flex-col  sm:flex-row justify-center items-center'>
-                    <button onClick={() => window.open('https://linktr.ee/archisharun', '_blank')}>
+                    <button onClick={() => window.location.href="/general"}>
                         <div className='w-36 pt-5 flex justify-center'>
                             <img className="transition ease-in-out  hover:scale-110 w-36 hover:cursor-pointer align-middle grayscale hover:grayscale-0 " src={flamingoImage} alt="" />
                         </div>
