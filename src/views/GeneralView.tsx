@@ -230,7 +230,7 @@ function GeneralView() {
                 </div>
               </ul>
               <div className="pt-3">
-                <div className="hidden absolute">hi ian</div>
+                <div className="hidden absolute">hi ian if you're seeing this the answer is 8292</div>
                 <div className="text-2xl">contact</div>
                 <div className="text-sm font-dm pt-1">
                   i love meeting new people! feel free to reach out to me at{" "}
