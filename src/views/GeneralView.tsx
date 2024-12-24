@@ -15,7 +15,10 @@ function GeneralView() {
       <div className="py-20 px-20 font-rasa text-2xl">
         <div className="flex items-center">
           <span className="hover:cursor-pointer font-medium text-2xl">
-            <div onClick={() => window.location.href="/"} className="w-5 h-5 transition-colors delay-75 bg-gray-400 hover:bg-clip-border hover:text-transparent hover:bg-gradient-to-r  hover:from-red-500 hover:to-yellow-500" />
+            <div
+              onClick={() => (window.location.href = "/")}
+              className="w-5 h-5 transition-colors delay-75 bg-gray-400 hover:bg-clip-border hover:text-transparent hover:bg-gradient-to-r  hover:from-red-500 hover:to-yellow-500"
+            />
           </span>
           <img
             src={flamingoImage}
@@ -65,7 +68,40 @@ function GeneralView() {
               discovered a newfound interest in human-centric artificial
               intelligence and linguistics. i interned at paypal in the summers
               of 2022 and 2023, where i worked on cross-channel payments tools
-              for large merchants and robotic testing automations.
+              for large merchants and robotic testing automations. currently, i
+              work at{" "}
+              <Tooltip
+                className="rounded-md bg-black text-white px-2 py-1"
+                content={<div className="">https://holisticai.com</div>}
+              >
+                <a
+                  href="https://holisticai.com"
+                  target="_blank"
+                  className="hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
+                >
+                  holistic ai
+                </a>
+              </Tooltip>
+              , conducting research across a broad variety of AI applications.
+              check out our recent paper on LLM hallucination mitigation{" "}
+              <Tooltip
+                className="rounded-md bg-black text-white px-2 py-1"
+                content={
+                  <div className="">
+                    THaMES: An End-to-End Tool for Hallucination Mitigation and
+                    Evaluation in LLMs
+                  </div>
+                }
+              >
+                <a
+                  href="https://arxiv.org/abs/2409.11353"
+                  target="_blank"
+                  className="hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
+                >
+                  here
+                </a>
+              </Tooltip>
+              !
             </div>
             <div className="text-sm font-dm pt-1">
               <span>
@@ -147,8 +183,9 @@ function GeneralView() {
                         </a>
                       </Tooltip>
                     </span>{" "}
-                    an llm-powered second brain. backed by
-                    general catalyst through rough draft ventures at a multi-million dollar valuation.
+                    an llm-powered second brain. backed by general catalyst
+                    through rough draft ventures at a multi-million dollar
+                    valuation.
                   </li>
                   <li className="pt-1 list-item text-gray-400">
                     here is a{" "}
@@ -171,8 +208,9 @@ function GeneralView() {
                         youtube playlist
                       </a>
                     </Tooltip>{" "}
-                    of recent jazz/funk/pop/other performances. i'm
-                    mainly a piano player, but working on my bass chops & expanding my instrument arsenal!
+                    of recent jazz/funk/pop/other performances. i'm mainly a
+                    piano player, but working on my bass chops & expanding my
+                    instrument arsenal!
                   </li>
                   <li className="pt-1 list-item text-gray-400">
                     in high school, a friend and i wrote a spoken word poem
@@ -199,13 +237,11 @@ function GeneralView() {
                       </a>
                     </Tooltip>{" "}
                     at a tedx event.
-                   
                   </li>
                   <li className="text-gray-400 pt-1">
-                    i started a new funk/rnb/pop band at
-                    stanford. we're not famous yet, but if you're
-                    reading this in the future, maybe we are! follow us on
-                    instagram{" "}
+                    i started a new funk/rnb/pop band at stanford. we're not
+                    famous yet, but if you're reading this in the future, maybe
+                    we are! follow us on instagram{" "}
                     <Tooltip
                       className="rounded-md bg-black text-white px-2 py-1"
                       content={
@@ -230,7 +266,9 @@ function GeneralView() {
                 </div>
               </ul>
               <div className="pt-3">
-                <div className="hidden absolute">hi ian if you're seeing this the answer is 8292</div>
+                <div className="hidden absolute">
+                  hi ian if you're seeing this the answer is 8292
+                </div>
                 <div className="text-2xl">contact</div>
                 <div className="text-sm font-dm pt-1">
                   i love meeting new people! feel free to reach out to me at{" "}
@@ -239,13 +277,18 @@ function GeneralView() {
                     content={
                       <div className="">
                         <span>
-                        send an email to <div className="font-bold"> me@archisharun.com</div>
+                          send an email to{" "}
+                          <div className="font-bold"> me@archisharun.com</div>
                         </span>
                       </div>
                     }
                   >
-                    <a href="mailto:me@archisharun.com" className='hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500'>me@archisharun.com</a>
-                     
+                    <a
+                      href="mailto:me@archisharun.com"
+                      className="hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
+                    >
+                      me@archisharun.com
+                    </a>
                   </Tooltip>
                 </div>
               </div>
