@@ -1,0 +1,8 @@
+{
+  "id": "1",
+  "title": "First.",
+  "date": "2024-03-20",
+  "summary": "The blog post details the completion of a personal website's functionality using various technologies, highlighting features and future plans.",
+  "content": "<p>As of 3:37am on December 26th, 2024, I have completed the functionality of this blog, intended to use on my personal website, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://archish.co\">https://archish.co</a>. I used React+Vite+Tailwind, Express.js, Jotai, and OpenAI's API to make the following features work:</p><ul><li><p>Persistent Edits and Autosaving</p></li><li><p>Dark Mode</p></li><li><p>Basic Authentication</p></li><li><p>Summarization</p></li><li><p>Exporting and Formatting for Beautification</p></li><li><p>Trash and Auto-Deletion Functionality</p></li><li><p>Keybinds for Article Creation</p></li></ul><p>It's not perfect by any means, but I'm proud of it. It's simple, clean, and easy to use. If someone never met me, they could probably figure out how to write and save on here. Now, I can format articles beautifully for the website without even thinking twice. I want to work on the following features:</p><ul><li><p>Offline Functionality + Local LLMs</p></li><li><p>More detailed sharing from Admin Console</p></li><li><p>Analytics and PageViews</p></li></ul><p>I'm not sure what I'm going to put on this blog just yet, but I'm happy to say that I've built it, if nothing else.</p><p>Here's to an onward and upward 2025!</p>",
+  "lastModified": "2024-12-26T14:29:01.013Z"
+}
