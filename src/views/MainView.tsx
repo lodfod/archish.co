@@ -119,11 +119,6 @@ function MainView() {
           );
 
           if (isIntersecting) {
-            console.log(
-              "Blob intersected with:",
-              el.tagName,
-              el.getAttribute("src")
-            );
             el.style.transform = "scale(1.1)";
             el.classList.add("grayscale-0");
 
@@ -288,10 +283,10 @@ function MainView() {
             </div>
           </button>
 
-          <button>
-            <div className="h-36 w-36 flex justify-center items-center">
+          <button onClick={() => (window.location.href = "/blog")}>
+            <div className="h-16 flex justify-center items-center">
               <img
-                className="transition ease-in-out hover:scale-110 hover:cursor-pointer h-28 grayscale hover:grayscale-0"
+                className="transition ease-in-out hover:scale-110 hover:cursor-pointer h-16 grayscale hover:grayscale-0"
                 src={cameraImage}
                 alt=""
               />

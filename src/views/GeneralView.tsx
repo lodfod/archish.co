@@ -175,7 +175,7 @@ function GeneralView() {
                         }
                       >
                         <a
-                          href="https://upsideapp.io"
+                          href="https://upside-landing-next-r34f.vercel.app/"
                           target="_blank"
                           className=" hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
                         >
