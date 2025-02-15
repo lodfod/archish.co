@@ -63,7 +63,7 @@ function GeneralView() {
                   archish
                 </span>
               </Tooltip>
-              , and i'm an college student studying computer science. after 2
+              , and i'm a college student studying computer science. after 2
               years of undergrad at nyu, i transferred to stanford and
               discovered a newfound interest in human-centric artificial
               intelligence and linguistics. i interned at paypal in the summers
