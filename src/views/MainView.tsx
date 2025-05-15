@@ -237,9 +237,7 @@ function MainView() {
             className=" hover:cursor-pointer text-white hover:text-transparent hover:bg-gradient-to-r bg-clip-text hover:from-red-500 hover:to-yellow-500"
           >
             archish arun
-            <div className="font-light font-syne text-xs pb-2">
-              student, developer, musician
-            </div>
+           
           </div>
           <div className="flex px-10 sm:px-4 justify-between pt-1 ">
             <a href="mailto:me@archisharun.com?subject=Request for Resume">
