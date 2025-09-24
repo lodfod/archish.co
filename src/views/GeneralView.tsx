@@ -68,8 +68,8 @@ function GeneralView() {
               discovered a newfound interest in human-centric artificial
               intelligence and linguistics. i interned at paypal in the summers
               of 2022 and 2023, where i worked on cross-channel payments tools
-              for large merchants and robotic testing automations. currently, i
-              work at{" "}
+              for large merchants and robotic testing automations. most recently, i
+              worked at{" "}
               <Tooltip
                 className="rounded-md bg-black text-white px-2 py-1"
                 content={<div className="">https://holisticai.com</div>}
@@ -83,7 +83,7 @@ function GeneralView() {
                 </a>
               </Tooltip>
               , conducting research across a broad variety of AI applications.
-              check out our recent paper on LLM hallucination mitigation{" "}
+              check out our paper on LLM hallucination mitigation{" "}
               <Tooltip
                 className="rounded-md bg-black text-white px-2 py-1"
                 content={
@@ -101,7 +101,22 @@ function GeneralView() {
                   here
                 </a>
               </Tooltip>
-              !
+              ! today, i'm working on  <Tooltip
+                className="rounded-md bg-black text-white px-2 py-1"
+                content={
+                  <div className="">
+                   https://cocreate.so
+                  </div>
+                }
+              >
+                <a
+                  href="https://cocreate.so"
+                  target="_blank"
+                  className="hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
+                >
+                  cocreate, a set of tools empowering professional video producers and agencies to keep up with the ever-increasing amount of content being created in today's world.
+                </a>
+              </Tooltip>
             </div>
             <div className="text-sm font-dm pt-1">
               <span>
