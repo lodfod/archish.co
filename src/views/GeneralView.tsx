@@ -114,9 +114,9 @@ function GeneralView() {
                   target="_blank"
                   className="hover:cursor-pointer text-transparent underline bg-gradient-to-r bg-clip-text from-red-500 to-yellow-500"
                 >
-                  cocreate, a set of tools empowering professional video producers and agencies to keep up with the ever-increasing amount of content being created in today's world.
+                  cocreate
                 </a>
-              </Tooltip>
+              </Tooltip>, a set of tools empowering professional video producers and agencies to keep up with the ever-increasing amount of content being created in today's world.
             </div>
             <div className="text-sm font-dm pt-1">
               <span>
